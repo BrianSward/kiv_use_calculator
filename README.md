@@ -4,7 +4,7 @@
 This is a calculator that I created in a spreadsheet for a client that I am attempting to bring into python. While I think it serves a better purpose in the spreadsheet format, this is just an attempt to spin my personal projects in the past into present projects using what I've learned over the last few months.
 
 ## Updates
-See the end for notes on update format.
+See the end of Update secton for notes on update format.
 
 Change: 01  
 Date: Oct 21 2022  
