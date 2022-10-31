@@ -16,6 +16,7 @@ this little chunk of code here was what helped me see those fields and i'm prett
     print(index, thing)
     thing.configure(text=index)
 ```
+Also root.winfo_children() proved super useful along the way!
 
 Change: 02  
 Date: Oct 27 2022  
