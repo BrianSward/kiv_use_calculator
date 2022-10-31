@@ -11,10 +11,12 @@ Change: 03
 Date: Oct 31 2022  
 Desc: Removed hundreds of lines of code by using enumerate, also came up with a very quick and cute way to see the input fields that were auto created.
 this little chunk of code here was what helped me see those fields and i'm pretty smitten with its utliity
+```
   for index, thing in enumerate(root.winfo_children()):
     print(index, thing)
     thing.configure(text=index)
-    
+```
+
 Change: 02  
 Date: Oct 27 2022  
 Desc: It works! Well I have most of it working. You can input a starting KIV, type in values, get metrics and keep track of how much oil you have left. I know the code is very ugly and can be cleaned up a lot, but I like that it works and it can reproduce results I've attained before in other mediums so I know the math is being done correctly. What I would like to do one day is clean up the amount of redundant lines in this code. I'm sure there is a way to make cleaner, more reusable functions but I just don't know what yet. 
